@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Transaction = require('../models/transaction');
+const Transaction = require('../models/Transaction');
 const authMiddleware = require('../middlewares/authMiddleware');
 
 // All routes protected by authMiddleware
