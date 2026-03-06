@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Budget = require('../models/budget');
-const Transaction = require('../models/transaction');
+const Budget = require('../models/Budget');
+const Transaction = require('../models/Transaction');
 const authMiddleware = require('../middlewares/authMiddleware');
 
 router.use(authMiddleware);

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Recurring = require('../models/recurring');
-const Transaction = require('../models/transaction');
+const Transaction = require('../models/Transaction');
 const authMiddleware = require('../middlewares/authMiddleware');
 
 router.use(authMiddleware);
