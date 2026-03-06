@@ -6,7 +6,11 @@ require('dotenv').config();
 const app = express();
 
 app.use(cors({
-  origin: ['https://expense-tracker-nine-vert-51.vercel.app', 'http://localhost:3000'],
+  origin: [
+    'https://expense-tracker-nine-vert-51.vercel.app',
+    'https://expense-tracker-p5yv5zqh0-sandeepsingh2002s-projects.vercel.app',
+    'http://localhost:3000'
+  ],
   credentials: true
 }));
 app.use(express.json());
